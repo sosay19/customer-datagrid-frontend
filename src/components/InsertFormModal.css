@@ -1,0 +1,25 @@
+/* src/components/TableManagementPage/insertFormModal.css */
+
+/* Basic styling for the Insert Form Modal */
+.insert-form-modal-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form items styling */
+.dx-form .dx-field {
+    margin-bottom: 15px;
+}
+
+.insert-form-modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Style the buttons */
+.dx-button {
+    min-width: 100px;
+}

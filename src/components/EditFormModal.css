@@ -1,0 +1,25 @@
+/* src/components/TableManagementPage/editFormModal.css */
+
+/* Basic styling for the Edit Form Modal */
+.edit-form-modal-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form items styling */
+.dx-form .dx-field {
+    margin-bottom: 15px;
+}
+
+.edit-form-modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Style the buttons */
+.dx-button {
+    min-width: 100px;
+}

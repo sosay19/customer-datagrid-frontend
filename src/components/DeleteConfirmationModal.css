@@ -1,0 +1,29 @@
+/* deleteConfirmationModal.css */
+
+.delete-confirmation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.delete-prompt {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-actions .dx-button {
+    width: 100px;
+}
+
+/* Ensure the content fits without creating a scrollbar */
+.dx-popup-content {
+    height: auto !important; /* Set height to auto to avoid the scrollbar */
+    overflow: visible !important; /* Ensure content doesn't overflow */
+}
